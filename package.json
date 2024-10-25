@@ -1,0 +1,50 @@
+{
+	"name": "zoom-clone-app-reactnative",
+	"version": "1.0.0",
+	"main": "node_modules/expo/AppEntry.js",
+	"scripts": {
+	  "start": "expo start",
+	  "android": "expo start --android",
+	  "ios": "expo start --ios",
+	  "web": "expo start --web",
+	  "eject": "expo eject",
+	  "test": "jest --watchAll"
+	},
+	"jest": {
+	  "preset": "jest-expo"
+	},
+	"dependencies": {
+	  "@expo/vector-icons": "^13.0.0",
+	  "@react-navigation/bottom-tabs": "^6.0.5",
+	  "@react-navigation/native": "^6.1.6", // Updated to a stable version
+	  "@react-navigation/native-stack": "^6.9.7", // Stable version for compatibility
+	  "@types/react-native-vector-icons": "^6.4.10",
+	  "expo": "~45.0.0", // Keep Expo version consistent
+	  "expo-asset": "~8.5.0",
+	  "expo-constants": "~13.1.1",
+	  "expo-font": "~10.1.0",
+	  "expo-linking": "~3.1.0",
+	  "expo-splash-screen": "~0.15.1",
+	  "expo-status-bar": "~1.3.0",
+	  "expo-system-ui": "~1.2.0",
+	  "expo-web-browser": "~10.2.0",
+	  "react": "17.0.2", // Must match React Native version
+	  "react-dom": "17.0.2", // Necessary for web support
+	  "react-native": "0.68.2", // Matches Expo SDK 45
+	  "react-native-safe-area-context": "^4.2.4", // Version should work fine
+	  "react-native-screens": "~3.11.1",
+	  "react-native-vector-icons": "^9.1.0",
+	  "react-native-web": "0.17.7" // Ensures React Native web support
+	},
+	"devDependencies": {
+	  "@babel/core": "^7.12.9",
+	  "@types/react": "~17.0.21",
+	  "@types/react-native": "~0.68.2", // Updated to match React Native version
+	  "jest": "^26.6.3",
+	  "jest-expo": "~45.0.0",
+	  "react-test-renderer": "17.0.2",
+	  "typescript": "~4.3.5"
+	},
+	"private": true
+  }
+  
