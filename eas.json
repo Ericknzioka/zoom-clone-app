@@ -8,11 +8,6 @@
           "buildType": "apk"
         }
       }
-    },
-    "submit": {
-      "android": {
-        "release": {}
-      }
     }
   }
   
