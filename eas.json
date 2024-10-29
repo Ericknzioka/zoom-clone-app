@@ -4,12 +4,14 @@
     },
     "build": {
       "android": {
-        "development": {
-          "buildType": "apk"
-        },
         "release": {
           "buildType": "apk"
         }
+      }
+    },
+    "submit": {
+      "android": {
+        "release": {}
       }
     }
   }
